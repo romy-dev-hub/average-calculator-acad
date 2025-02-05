@@ -1,0 +1,283 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    margin: 10px 0 5px;
+    margin-right: 10px;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.algo{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #2c0ddc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+
+h3{
+    text-align: center;
+    text-decoration: underline #ccc;
+}
+
+.archi{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #0de74b;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.logic{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #dc250d;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.mi{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #d5e920;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.proba{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #e51ac3;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.eng{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #0ddcd9;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.si{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #6c55f3;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+button{
+    padding: 10px;
+    background-color: #a80808;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    background-color: #8e0808;
+}
+
+button:active{
+    background-color: hsl(0, 90%, 26%)
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.algo button{
+    padding: 10px;
+    background-color: #2c0ddc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.algo #resultalgo{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.archi button{
+    padding: 10px;
+    background-color: #0de74b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.archi #resultarchi{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.proba button{
+    padding: 10px;
+    background-color: #e51ac3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proba #resultproba{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.si button{
+    padding: 10px;
+    background-color: #6c55f3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.si #resultsi{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.mi button{
+    padding: 10px;
+    background-color: #d5e920;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mi #resultmi{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.eng button{
+    padding: 10px;
+    background-color: #0ddcd9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eng #resulteng{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.logic button{
+    padding: 10px;
+    background-color: #a80808;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logic #resultlogic{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    #calculator-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1196px){
+    #calculator-form{
+        display: flex;
+        flex-direction: column;
+    }
+}
